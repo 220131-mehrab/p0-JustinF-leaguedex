@@ -17,7 +17,7 @@ public class App {
         server.addContext("",null);
         server.addServlet("","dexServlet", dexService).addMapping("/");
         try {
-            this.server.start();
+            server.start();
         } catch (LifecycleException e) {
             e.printStackTrace();
         }
