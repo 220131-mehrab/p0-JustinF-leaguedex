@@ -3,8 +3,6 @@ package com.revature.leaguedex;
 import org.apache.catalina.LifecycleException;
 import org.apache.catalina.startup.Tomcat;
 
-import java.io.File;
-
 public class App {
 
     public static void main(String[] args) {
