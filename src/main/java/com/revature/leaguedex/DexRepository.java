@@ -19,11 +19,20 @@ public class DexRepository {
         Scanner scanner = new Scanner(this.file);
         scanner.useDelimiter("\n");
         while (scanner.hasNext()) {
+            String[] champColumns = scanner.next().split(",");
+            Champion temp = new Champion(champColumns[2]);
             this.pocketChamps.add(scanner.next());
         }
     }
 
-    public List<String> getPocketChamps() {
-        return pocketChamps;
+    public List<Champion> getPocketChamps() {return pocketChamps;}
+
+    public Champion getChamp(String name){
+        for(Champion champion : this.pocketChamps) {
+            if (champion.getName().equals {
+                result = champion;
+            }
+        }
+        return result;
     }
 }
