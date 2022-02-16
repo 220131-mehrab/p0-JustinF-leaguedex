@@ -19,6 +19,7 @@ public class App {
         server.addServlet(webAppName,"defaultServlet", new DefaultServlet()).addMapping("/*");
         server.addServlet(webAppName,"dexServlet", dexService).addMapping("/champion");
         server.addServlet(webAppName,"searchFormServlet", sfService).addMapping("/search");
+        //System.out.println("Server running on http://localhost:" + server.getServer().getPort());
         try {
             server.start();
         } catch (LifecycleException e) {

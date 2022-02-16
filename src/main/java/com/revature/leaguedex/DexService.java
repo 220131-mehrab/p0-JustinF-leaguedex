@@ -20,7 +20,7 @@ public class DexService extends HttpServlet {
         userInput= req.getParameter("searchName");
 
         if(userInput != null) {
-            String result = dexRepository.getChamp(userInput).getName();
+            String result = dexRepository.getChampion(userInput).getName();
             resp.getWriter().println(result);
         } else {
             for(Champion champion : dexRepository.getPocketChamps()) {

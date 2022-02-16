@@ -1,146 +1,159 @@
-Id,Name,Class,Style,Difficulty,DamageType,Damage,Sturdiness,Crowd-Control,Mobility,Functionality
-1,Aatrox,Warrior,3,2,P,3,3,2,2,2
-2,Ahri,Mage,10,2,M,3,1,2,3,1
-3,Akali,Assasin,7,2,PM,3,1,1,3,1
-4,Alistar,Tank-Support,7,1,M,1,3,3,1,2
-5,Amumu,Tank,9,1,M,2,3,3,1,1
-6,Anivia,Mage,10,3,M,3,1,3,1,2
-7,Annie,Mage,10,1,M,3,1,3,1,2
-8,Ashe,Marksman,3,1,P,2,1,3,1,2
-9,Aurelion Sol,Mage,10,3,M,3,1,2,2,1
-10,Azir,Mage,5,3,M,3,1,2,2,1
-11,Bard,Support,7,3,M,1,1,3,2,3
-12,Blitzcrank,Support,3,1,M,1,2,3,1,1
-13,Brand,Mage,10,2,M,3,1,2,1,1
-14,Braum,Tank-Support,8,2,M,1,2,3,1,2
-15,Caitlyn,Marksman,2,1,P,3,1,2,2,1
-16,Camille,Warrior,4,3,P,3,2,2,3,1
-17,Cassiopeia,Mage,10,3,M,3,1,3,1,1
-18,Cho Gath,Mage-Warrior,7,1,M,2,3,2,1,1
-19,Corki,Marksman,5,2,PM,3,1,1,2,1
-20,Darius,Tank-Warrior,6,2,P,3,2,2,1,1
-21,Diana,Mage-Warrior,7,1,M,3,2,2,2,1
-22,Dr.Mundo,Tank-Warrior,6,1,PM,2,3,1,1,1
-23,Draven,Marksman,2,3,P,3,1,1,2,1
-24,Ekko,Mage-Warrior,8,3,M,3,2,2,3,
-25,Elise,Mage-Assasin,7,3,M,2,2,2,2,1
-26,Evelynn,Assasin,8,2,M,2,2,1,2,2
-27,Ezreal,Mage-Marksman,6,2,PM,3,1,1,2,1
-28,Fiddlesticks,Mage,10,2,M,3,1,3,1,1
-29,Fiora,Warrior,2,3,P,3,2,2,2,2
-30,Fizz,Mage-Assasin,9,3,M,3,1,2,3,1
-31,Galio,Mage,10,2,M,2,3,3,2,1
-32,Gangplank,Warrior,8,3,P,3,2,2,2,2
-33,Garen,Tank-Warrior,8,1,P,2,3,1,1,1
-34,Gnar,Warrior,5,3,P,2,3,2,2,1
-35,Gragas,Mage-Warrior,9,2,M,2,3,3,2,1
-36,Graves,Marksman,2,2,P,3,2,1,2,2
-37,Hecarim,Warrior,7,2,P,2,2,2,2,1
-38,Heimerdinger,Mage,10,2,M,3,1,2,1,2
-39,Illaoi,Tank-Warrior,6,2,P,3,2,1,1,1
-40,Irelia,Warrior,3,3,PM,2,2,2,3,2
-41,Ivern,Mage,1,3,M,1,1,3,2,3
-42,Janna,Support,10,1,M,1,1,3,1,3
-43,Jarvan IV,Tank-Warrior,6,1,P,2,2,2,2,2
-44,Jax,Warrior,2,2,PM,3,2,2,2,1
-45,Jayce,Warrior,5,2,P,3,1,1,2,2
-46,Jhin,Marksman,3,2,P,3,1,2,1,1
-47,Jinx,Marksman,2,2,P,3,1,2,1,1
-48,Kai Sa,Marksman,2,2,PM,3,1,0,3,1
-49,Kalista,Marksman,2,3,P,3,1,1,3,2
-50,Karma,Mage-Support,10,1,M,2,1,2,1,2
-51,Karthus,Mage,10,2,M,3,1,1,1,2
-52,Kassadin,Mage-Assasin,9,2,M,3,2,1,3,1
-53,Katarina,Mage-Assasin,10,3,M,3,1,1,3,1
-54,Kayle,Mage,3,2,PM,3,1,1,1,3
-55,Kayn,Assasin,3,2,P,3,1,1,3,1
-56,Kennen,Mage,7,2,M,3,1,3,1,1
-57,Kha Zix,Assasin,6,2,P,3,1,1,2,1
-58,Kindred,Assasin,3,3,P,3,1,2,3,2
-59,Kled,Warrior,3,2,P,3,2,1,3,1
-60,Kog Maw,Marksman,2,2,PM,3,1,1,1,1
-61,Leblanc,Mage-Assasin,10,3,M,3,1,2,3,1
-62,Lee Sin,Warrior-Assasin,6,3,P,3,2,2,3,1
-63,Leona,Tank,9,1,M,1,3,3,1,1
-64,Lissandra,Mage,10,2,M,3,1,3,2,1
-65,Lucian,Marksman,4,2,P,3,1,1,3,1
-66,Lulu,Support,8,2,M,2,1,2,1,3
-67,Lux,Mage,9,1,M,3,1,2,1,2
-68,Malphite,Tank,8,1,M,1,3,3,1,1
-69,Malzahar,Mage,10,1,M,3,1,3,1,2
-70,Maokai,Tank,8,1,M,1,3,3,1,2
-71,Master Yi,Assasin,2,1,P,3,1,1,2,1
-72,Miss Fortune,Marksman,4,1,P,3,1,1,1,1
-73,Mordekaiser,Warrior,8,2,M,3,2,1,1,2
-74,Morgana,Mage-Support,10,1,M,2,1,3,1,2
-75,Nami,Support,9,2,M,1,1,3,1,2
-76,Nasus,Warrior,3,1,P,2,3,2,1,1
-77,Nautilus,Tank-Support,8,2,M,1,3,3,1,1
-78,Neeko,Mage,8,1,M,3,1,3,1,1
-79,Nidalee,Assasin,8,3,M,3,1,1,3,2
-80,Nocturne,Assasin,4,1,P,3,1,2,2,2
-81,Nunu,Tank,8,1,M,1,3,2,1,2
-82,Olaf,Warrior,4,2,P,2,2,2,1,1
-83,Orianna,Mage,9,2,M,2,1,2,1,2
-84,Ornn,Warrior,7,2,PM,1,3,3,1,2
-85,Pantheon,Warrior-Assasin,8,1,P,3,2,2,2,1
-86,Poppy,Tank-Warrior,8,2,P,2,3,3,2,1
-87,Pyke,Support,7,2,P,2,1,3,3,1
-88,Qiyana,Warrior,7,2,P,3,1,2,2,1
-89,Quinn,Marksman,3,2,P,3,1,2,3,1
-90,Rakan,Support,9,2,M,1,2,3,3,3
-91,Rammus,Tank,7,1,PM,2,3,3,2,1
-92,Rek Sai,Warrior,4,2,P,2,2,2,2,2
-93,Renekton,Warrior,5,1,P,2,2,2,2,1
-94,Rengar,Assasin,4,2,P,3,1,2,2,1
-95,Riven,Warrior,8,2,P,3,2,2,3,1
-96,Rumble,Mage-Warrior,9,3,M,3,2,2,1,1
-97,Ryze,Mage,10,2,M,3,1,2,2,2
-98,Sejuani,Tank,8,2,M,2,2,3,2,1
-99,Shaco,Assasin,5,2,P,3,1,2,2,2
-100,Shen,Tank,5,2,PM,2,3,2,2,3
-101,Shyvana,Warrior,6,1,P,2,2,1,2,1
-102,Singed,Tank-Warrior,10,2,M,2,3,2,2,1
-103,Sion,Warrior,7,1,P,2,3,3,1,1
-104,Sivir,Marksman,2,2,P,3,1,1,1,2
-105,Skarner,Warrior,5,1,PM,1,3,3,1,1
-106,Sona,Support,9,1,M,2,1,2,1,2
-107,Soraka,Support,10,1,M,1,1,2,1,3
-108,Swain,Mage,10,2,M,2,2,2,1,1
-109,Sylas,Mage-Warrior,7,3,M,2,2,1,3,1
-110,Syndra,Mage,10,2,M,3,1,2,1,1
-111,Tahm Kench,Tank-Support,7,1,M,2,3,2,1,3
-112,Taliyah,Mage,10,2,M,3,1,2,1,3
-113,Talon,Assasin,7,2,P,3,1,1,2,1
-114,Taric,Tank-Support,8,2,M,1,2,2,1,3
-115,Teemo,Assasin,3,1,M,3,1,2,1,2
-116,Thresh,Tank-Support,8,3,M,1,2,3,1,3
-117,Tristana,Marksman,3,1,P,3,1,2,2,1
-118,Trundle,Warrior,4,1,P,2,3,1,1,2
-119,Tryndamere,Warrior,2,1,P,3,2,1,2,1
-120,Twisted Fate,Mage-Assasin,7,2,M,3,1,2,2,2
-121,Twitch,Marksman,1,2,P,3,1,1,2,1
-122,Udyr,Warrior,4,2,PM,2,3,2,2,1
-123,Urgot,Warrior,6,2,P,2,2,2,1,1
-124,Varus,Marksman,3,2,P,3,1,2,1,1
-125,Vayne,Marksman,1,2,P,3,1,2,2,1
-126,Veigar,Mage,10,2,M,3,1,3,1,1
-127,Vel Koz,Mage,10,2,M,3,1,2,1,1
-128,Vi,Warrior,6,1,P,2,2,3,2,1
-129,Viktor,Mage,9,3,M,3,1,2,1,1
-130,Vladimir,Mage-Warrior,10,2,M,3,2,1,1,1	
-131,Volibear,Tank-Warrior,4,1,P,2,3,2,2,1
-132,Warwick,Warrior,4,1,P,2,2,2,1,1
-133,Wukong,Warrior,6,1,P,2,2,2,2,1
-134,Xayah,Marksman,4,2,P,3,2,3,1,1
-135,Xerath,Mage,9,2,M,3,1,2,1,1
-136,Xin Zhao,Warrior,4,1,P,2,2,2,2,1
-137,Yasuo,Warrior,3,3,P,3,1,2,3,2
-138,Yorick,Warrior,6,2,PM,2,2,2,1,2
-139,Yuumi,Support,10,1,M,1,1,1,3,3
-140,Zac,Tank-Warrior,10,1,M,2,3,3,2,1
-141,Zed,Assasin,6,3,P,3,1,1,3,1
-142,Ziggs,Mage,9,2,M,3,1,2,2,1
-143,Zilean,Mage-Support,10,2,M,2,1,2,2,3
-144,Zoe,Mage,10,3,M,3,1,2,2,1
-145,Zyra,Mage-Support,10,2,M,3,1,3,1,1
+Id,Name,Class,HP,Mana,AD,ASpeed,Armor,MR,MS,Range
+1,Aatrox,Warrior,580,0,60,0.651,38,32,345,175
+2,Ahri,Mage,500,418,53,0.668,18,30,330,550
+3,Akali,Assasin,500,200,62,0.625,23,37,345,125
+4,Akshan,Ranged-Assassin,560,350,52,0.638,28,30,330,500
+5,Alistar,Tank,600,350,62,0.625,44,32,330,125
+6,Amumu,Tank,615,285,53,0.736,30,32,335,125
+7,Anivia,Mage,480,495,51,0.625,21,30,325,600
+8,Annie,Mage,524,418,50,0.579,19,30,335,625
+00,Aphelios,Marksman,530,348,55,0.64,28,30,325,550
+9,Ashe,Marksman,570,280,59,0.658,26,30,325,600
+10,Aurelion Sol,Mage,575,350,57,0.625,19,30,325,550
+11,Azir,Mage,552,480,52,0.625,19,30,335,525
+12,Bard,Support,560,350,52,0.625,34,30,330,500
+13,Blitzcrank,Support,583,267,62,0.625,40,32,325,125
+14,Brand,Mage,520,469,57,0.625,22,30,340,550
+15,Braum,Tank-Support,540,311,55,0.644,47,32,335,125
+16,Caitlyn,Marksman,510	,315,62,0.681,28,30,325,650
+17,Camille,Warrior,576,339,68,0.644,35,32.1,340,125
+18,Cassiopeia,Mage,560,350,53,0.647,18,32,328,550
+19,Cho Gath,Mage-Warrior,574,270,69,0.625,38,32,345,125
+20,Corki,Marksman,518,350,55,0.638,28,30,325,550
+21,Darius,Tank-Warrior,582,263,64,0.625,39,32,340,175
+22,Diana,Mage-Warrior,570,375,8,57,0.625,31	,32,345,150
+//23,Dr.Mundo,Tank-Warrior,583,0,0,61,0.72,32,32,345,125
+24,Draven,Marksman,605,360.56,60,0.679,29,30,330,550
+25,Ekko,Mage-Warrior,585,280,7,58,0.688,32,32,340,125
+26,Elise,Mage-Assasin,555,324,55,0.625,27,30,330,550
+27,Evelynn,Assasin,572,315,61,0.667,37,32.1,335,125
+28,Ezreal,Mage-Marksman,530,,375,60,0.625,24,30,325,550
+29,Fiddlesticks,Mage,580.4,500,55,0.625,34,30,335,480
+30,Fiora,Warrior,550,300,68,0.69,33,32,345,150
+31,Fizz,Mage-Assasin,570,317,58,0.658,22,32,335,175
+32,Galio,Mage,562,500,59,0.625,24,32,335,150
+33,Gangplank,Warrior,570,280,64,0.658,35,32,345,125
+34,Garen,Tank-Warrior,620,0,66,0.625,36,32,340,175
+35,Gnar,Warrior,510,100,57,0.625,32,30,335,400
+36,Gragas,Mage-Warrior,600,400,64,0.675,38,32,330,125
+37,Graves,Marksman,555,325,68,0.475,33,32,340,425
+00,Gwen,Warrior,590,330,63,0.69,39,32,340,150
+38,Hecarim,Warrior,580,277,66,0.67,35,32,345,175
+39,Heimerdinger,Mage,488,385,56,0.625,19,30,340,550
+40,Illaoi,Tank-Warrior,586,300,68,0.571,35,32,350,125
+41,Irelia,Warrior,520,350,65,0.656,36,28,335,200
+42,Ivern,Mage,585,450,50,0.644,27,32,330,475
+43,Janna,Support,500,350,52,0.625,28,30,325,500
+44,Jarvan IV,Tank-Warrior,570,300,64,0.658,34,32,340,175
+45,Jax,Warrior,593,339,68,0.638,36,32,350,125
+46,Jayce,Warrior,560,375,54,0.658,27,30,335,125
+47,Jhin,Marksman,585,300,59,0.625,24,30,330,550
+48,Jinx,Marksman,610,245,57,0.625,26,30,325,525
+49,Kai Sa,Marksman,600,344.88,59,0.644,28,30,335,525
+50,Kalista,Marksman,534,250,69,0.694,21,30,325,525
+51,Karma,Mage-Support,534,374,51,0.625,28,30,335,525
+52,Karthus,Mage,550,467,46,0.625,18,30,335,450
+53,Kassadin,Mage-Assasin,576,400,59,0.64,19,30,335,150
+54,Katarina,Mage-Assasin,602,0,58,0.658,28,32,335,125
+55,Kayle,Mage,600,330,50,0.625,26,26,335,175
+56,Kayn,Assasin,585,410,68,0.669,38,32,340,175
+57,Kennen,Mage,541,200,48,0.625,29,30,335,550
+58,Kha Zix,Assasin,573,327,63,0.668,36,32,350,125
+59,Kindred,Assasin,540,300,65,0.625,29,30,325,500
+60,Kled,Warrior,740,100,65,0.625,35,28,345,125
+61,Kog Maw,Marksman,565,325,61,0.665,24,30,330,500
+62,Leblanc,Mage-Assasin,528,334,55,0.625,22,30,340,525
+63,Lee Sin,Warrior-Assasin,575,200,68,0.651,36,32,345,125
+64,Leona,Tank,576,302,60,0.625,47,32,335,125
+00,Lillia,Mage,580,410,61,0.625,22,32,330,325
+65,Lissandra,Mage,550,475,55,0.656,22,30,325,550
+66,Lucian,Marksman,571,348.88,62,0.638,28,30,335,500
+67,Lulu,Support,525,350,47,0.625,29,30,330,550
+68,Lux,Mage,490,480,54,0.669,19,30,330,550
+69,Malphite,Tank,574,280,62,0.736,37,28,335,125
+70,Malzahar,Mage,510,375,55,0.625,18,30,335,500
+71,Maokai,Tank,565,375,64,0.8,39,32,335,125
+72,Master Yi,Assasin,599,251,66,0.679,33,32,355,125
+73,Miss Fortune,Marksman,570,300,52,0.656,28,30,325,550
+74,Mordekaiser,Warrior,575,0,61,0.625,37,32,335,175
+75,Morgana,Mage-Support,560,340,56,0.625,25,30,335,450
+76,Nami,Support,490,365,51,0.644,29,30,335,550
+77,Nasus,Warrior,561,326,67,0.638,34,32,350,125
+78,Nautilus,Tank-Support,576,400,61,0.706,39,32,325,175
+79,Neeko,Mage,540,450,48,0.625,21,30,340,550
+80,Nidalee,Assasin,570,295,58,0.638,28,30,335,525
+81,Nocturne,Assasin,585,275,62,0.721,38,32,345,125
+82,Nunu,Tank,540,280,61,0.625,29,32,345,125
+83,Olaf,Warrior,575,16,68,0.694,35,32,350,125
+84,Orianna,Mage,530,418,40,0.658,17,26,325,525
+85,Ornn,Warrior,590,340.6,69,0.625,33,32,335,175
+86,Pantheon,Warrior-Assasin,580,317.12,64,0.644,40,28,345,175
+87,Poppy,Tank-Warrior,540,280,64,0.625,38,32,345,125
+88,Pyke,Support,600,415,62,0.667,45,32,330,150
+89,Qiyana,Warrior,520,320,66,0.688,28,32,335,150
+90,Quinn,Marksman,533,269,59,0.668,28,30,335,525
+91,Rakan,Support,540,315,62,0.635,32,32,335,300
+92,Rammus,Tank,564,310,56,0.656,36,32,335,125
+93,Rek Sai,Warrior,570,100,64,0.667,36,32,335,175
+00,Rell,Tank,540,350,55,0.55,32,32.1,335,175
+94,Renekton,Warrior,590,100,69,0.665,35,32,345,125
+95,Rengar,Assasin,585,4,68,0.667,34,32,345,125
+96,Riven,Warrior,560,0,64,0.625,33,32,340,125
+97,Rumble,Mage-Warrior,589,100,61,0.644,31,28,345,125
+98,Ryze,Mage,575,300,58,0.625,22,36,340,550
+00,Samira,Marksman,530,348.88,57,0.658,26,30,335,500
+99,Sejuani,Tank,560,400,66,0.688,34,32,340,150
+00,Senna,Marksman-Support,520,350,50,0.625,28,30,330,600
+00,Seraphine,Support,500,440,55,0.669,19,30,325,525
+00,Sett,Warrior,600,0,60,0.625,33,32,340,125
+100,Shaco,Assasin,560,297,63,0.694,30,32,345,125
+101,Shen,Tank,540,400,60,0.751,34,32,340,125
+102,Shyvana,Warrior-Mage,595,100,66,0.658,38,32,350,125
+103,Singed,Tank-Warrior,580,330,63,0.613,34,32,345,125
+104,Sion,Warrior,545,330,68,0.679,32,32,345,175
+105,Sivir,Marksman,562,325,63,0.625,26,30,335,500
+106,Skarner,Warrior,580,320,65,0.625,38,32,335,125
+107,Sona,Support,480,340,49,0.644,26,30,325,550
+108,Soraka,Support,535,425,50,0.625,32,30,325,550
+109,Swain,Mage,525,468,58,0.625,23,30,325,525
+110,Sylas,Mage-Warrior,525,310,61,0.645,27,32,340,175
+111,Syndra,Mage,523,480,54,0.625,25,30,330,550
+112,Tahm Kench,Tank-Support,570,325,56,0.658,42,32,335,175
+113,Taliyah,Mage,532,425,58,0.625,20,30,335,525
+114,Talon,Assasin,588,377.2,68,0.625,30,39,335,125
+115,Taric,Tank-Support,575,300,55,0.625,40,32,340,150
+116,Teemo,Assasin,528,334,54,0.69,24,30,330,500
+117,Thresh,Tank-Support,530,274,56,0.625,28,30,330,450
+118,Tristana,Marksman,600,250,59,0.656,26,30,325,525
+119,Trundle,Warrior,616,281,68,0.67,37,32,350,175
+120,Tryndamere,Warrior,626,100,72,0.67,33,32,345,125
+121,Twisted Fate,Mage-Assasin,534,333,52,0.651,21,30,330,525
+122,Twitch,Marksman,612,287.2,59,0.679,27,30,330,550
+123,Udyr,Warrior,594,271,64,0.658,34,32,350,125
+124,Urgot,Warrior,585,340,63,0.625,36,32,330,350
+125,Varus,Marksman,530,360,59,0.658,27,30,330,575
+126,Vayne,Marksman,515,231.8,60,0.658,23,30,330,550
+127,Veigar,Mage,505,490,52,0.625,23,32,340,550
+128,Vel Koz,Mage,520,469,55,0.625,22,30,340,525
+00,Vex,Mage,520,490,54,0.669,23,28,335,550
+129,Vi,Warrior,585,295,63,0.644,30,32,340,125
+00,Viego,Warrior,560,0,57,0.658,34,32,345,200
+130,Viktor,Mage,530,405,53,0.658,23,30,335,525
+131,Vladimir,Mage-Warrior,537,2,55,0.658,23,30,330,450
+132,Volibear,Tank-Warrior,580,350,60,0.625,31,32,340,150
+133,Warwick,Warrior,550,280,65,0.638,33,32,335,125
+134,Wukong,Warrior,540,300,68,0.711,31,28,345,175
+135,Xayah,Marksman,590,340,60,0.625,25,30,330,525
+136,Xerath,Mage,526,459,55,0.625,22,30,340,525
+137,Xin Zhao,Warrior,570,274,63,0.645,35,32,345,175
+138,Yasuo,Warrior,490,100,60,0.697,30,32,345,175
+00,Yone,Warrior,550,500,60,0.625,28,32,345,175
+139,Yorick,Warrior,580,300,62,0.625,39,32,340,175
+140,Yuumi,Support,480,400,55,0.625,25,25,330,500
+141,Zac,Tank-Warrior,615,0,60,0.736,33,32,340,175
+142,Zed,Assasin,584,200,63,0.651,32,32,345,125
+00,Zeri,Marksman,500,250,58,0.658,23,30,325,500
+143,Ziggs,Mage,536,480,54,0.656,22,30,325,550
+144,Zilean,Mage-Support,504,452,52,0.625,24,30,335,550
+145,Zoe,Mage,560,425,58,0.625,21,30,340,550
+146,Zyra,Mage-Support,504,418,53,0.625,29,30,340,575
