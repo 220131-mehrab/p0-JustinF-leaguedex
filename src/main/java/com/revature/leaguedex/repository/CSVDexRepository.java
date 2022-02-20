@@ -1,16 +1,18 @@
-package com.revature.leaguedex;
+package com.revature.leaguedex.repository;
+
+import com.revature.leaguedex.domain.Champion;
 
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class DexRepository {
-    private List<Champion> pocketChamps;
+public class CSVDexRepository implements DexRepository {
+    private List<Champion> pocketChampions;
     private InputStream file;
 
-    public DexRepository(String filename) {
-        this.pocketChamps = new ArrayList<>();
+    public CSVDexRepository(String filename) {
+        this.pocketChampions = new ArrayList<>();
         this.file = getClass().getClassLoader().getResourceAsStream(filename);
         load();
     }
@@ -20,16 +22,20 @@ public class DexRepository {
         scanner.useDelimiter("\n");
         while (scanner.hasNext()) {
             String[] champColumns = scanner.next().split(",");
-            Champion temp = new Champion(champColumns[1]);
-            this.pocketChamps.add(temp);
+            Champion temp = Champion.of().name(champColumns[1])
+                    .id(Integer.parseInt(champColumns[0]))
+                    .type1(new Types(1, Type.valueof(champColumns[2].toUpperCase())));
+
+            this.pocketChampions.add(temp);
         }
     }
 
-    public List<Champion> getPocketChamps() {return pocketChamps;}
+    public List<Champion> getPocketChampions() {
+        return pocketChampions;}
 
     public Champion getChampion(String name){
         Champion result= null;
-        for(Champion champion : this.pocketChamps) {
+        for(Champion champion : this.pocketChampions) {
             if (champion.getName().equals(name)) {
                 result = champion;
             }

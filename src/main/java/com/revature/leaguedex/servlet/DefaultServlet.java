@@ -1,4 +1,4 @@
-package com.revature.leaguedex;
+package com.revature.leaguedex.servlet;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
@@ -23,6 +23,9 @@ public class DefaultServlet extends HttpServlet {
             resp.getWriter().println("File Not Found");
             return;
         }
+
+        String mimeType = getServletContext().getMimeType(fileName);
+        resp.setContentType(mimeType);
         IOUtils.copy(file, resp.getOutputStream());
     }
 }
