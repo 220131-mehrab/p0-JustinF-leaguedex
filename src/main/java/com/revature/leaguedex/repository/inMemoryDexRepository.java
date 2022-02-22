@@ -1,7 +1,6 @@
 package com.revature.leaguedex.repository;
 
 import com.revature.leaguedex.domain.Champion;
-import com.revature.leaguedex.domain.Types;
 
 import java.util.ArrayList;
 import java.util.List;

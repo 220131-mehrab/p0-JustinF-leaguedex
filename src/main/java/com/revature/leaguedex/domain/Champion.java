@@ -1,20 +1,13 @@
 package com.revature.leaguedex.domain;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
+import java.util.*;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
-public class Champion implements Comparable<Champion> {
-   @JsonProperty("id")
+public class Champion implements Comparable<Champion>{
     private int dexId;
     private String name;
-    private List<Types> types;
+    private List<Type> types;
     private String HP;
-
 
     private Champion() {
         this.types = new ArrayList<>();
@@ -34,13 +27,13 @@ public class Champion implements Comparable<Champion> {
         return this;
     }
 
-    public Champion type1(Types type1) {
-        this.add(type1);
+    public Champion type1(String type1) {
+        types.add(0, Type.valueOf(type1.toUpperCase()));
         return this;
     }
 
     public Champion HP(String HP) {
-        this.add = HP;
+        this.HP = HP;
         return this;
     }
 
@@ -60,25 +53,25 @@ public class Champion implements Comparable<Champion> {
         this.name = name;
     }
 
-    public List<Types> getType() {
+    public List<Type> getTypes() {
         return types;
     }
 
-    public void setType(List<Types> types) {
+    public void setTypes(List<Type> types) {
         this.types = types;
     }
 
     @Override
     public String toString() {
-        return "Champion{" +
+        return "Pokemon{" +
+                "dexId=" + dexId +
                 ", name='" + name + '\'' +
-                ", type=" + types +
-                ", HP=" + HP +
+                ", types=" + types +
                 '}';
     }
 
     @Override
-    public boolean equals(Obect o) {
+    public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Champion champion = (Champion) o;
@@ -87,7 +80,7 @@ public class Champion implements Comparable<Champion> {
 
     @Override
     public int hashCode() {
-        return Objects.hash(dexId, name, types, HP);
+        return Objects.hash(dexId, name, types);
     }
 
     @Override

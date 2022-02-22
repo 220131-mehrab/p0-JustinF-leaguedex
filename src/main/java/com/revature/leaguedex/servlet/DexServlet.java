@@ -30,7 +30,8 @@ public class DexServlet extends HttpServlet {
         } else {
             results.addAll(service.getChampoin());
         }
-        resp.getWriter().println(results);
+        for (Champion c : results)
+            resp.getWriter().println(results);
     }
 
 }

@@ -20,11 +20,13 @@ public class CSVDexRepository implements DexRepository {
     private void load() {
         Scanner scanner = new Scanner(this.file);
         scanner.useDelimiter("\n");
+        scanner.next();
         while (scanner.hasNext()) {
-            String[] champColumns = scanner.next().split(",");
-            Champion temp = Champion.of().name(champColumns[1])
-                    .id(Integer.parseInt(champColumns[0]))
-                    .type1(new Types(1, Type.valueof(champColumns[2].toUpperCase())));
+            String[] champColums = scanner.next().split(",");
+            Champion temp = Champion.of().name(champColums[2])
+                    .id(Integer.parseInt(champColums[1]))
+                    .type1(champColums[3]);
+                    //.type2(champColums[4]);
 
             this.pocketChampions.add(temp);
         }
