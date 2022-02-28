@@ -2,38 +2,29 @@ package com.revature.leaguedex.domain;
 
 import java.util.*;
 
-
-public class Champion implements Comparable<Champion>{
+public class Champion implements Comparable<Champion> {
     private int dexId;
     private String name;
-    private List<Type> types;
-    private String HP;
+    private String type;
+    private int health;
 
-    private Champion() {
-        this.types = new ArrayList<>();
-    }
-
-    public static Champion of() {
-        return new Champion();
-    }
 
     public Champion id(int id) {
         this.dexId = id;
         return this;
     }
-
     public Champion name(String name) {
         this.name = name;
         return this;
     }
 
-    public Champion type1(String type1) {
-        types.add(0, Type.valueOf(type1.toUpperCase()));
+    public Champion type(String type) {
+        this.type = type;
         return this;
     }
 
-    public Champion HP(String HP) {
-        this.HP = HP;
+    public Champion health(int health) {
+        this.health = health;
         return this;
     }
 
@@ -53,20 +44,34 @@ public class Champion implements Comparable<Champion>{
         this.name = name;
     }
 
-    public List<Type> getTypes() {
-        return types;
+    public String getType() {
+        return type;
     }
 
-    public void setTypes(List<Type> types) {
-        this.types = types;
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
+
+    public static Champion of() {
+        return new Champion();
     }
 
     @Override
     public String toString() {
-        return "Pokemon{" +
-                "dexId=" + dexId +
-                ", name='" + name + '\'' +
-                ", types=" + types +
+        return "Champion {" +
+                "dexID=" + dexId +
+                ", name='" + name +'\'' +
+                ", Class=" + type +
+                ", Health=" + health +
                 '}';
     }
 
@@ -75,16 +80,18 @@ public class Champion implements Comparable<Champion>{
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Champion champion = (Champion) o;
-        return dexId == champion.dexId && name.equals(champion.name) && types.equals(champion.types);
+        // left out HP
+        return dexId == champion.dexId && name.equals(champion.name) && type.equals(champion.type);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(dexId, name, types);
+        return Objects.hash(dexId, name, type, health);
     }
 
     @Override
     public int compareTo(Champion o) {
         return Integer.compare(this.dexId, o.getDexId());
     }
+
 }

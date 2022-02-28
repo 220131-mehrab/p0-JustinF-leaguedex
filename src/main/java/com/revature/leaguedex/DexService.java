@@ -1,19 +1,19 @@
-package com.revature.leaguedex.service;
+package com.revature.leaguedex;
 
-import com.revature.leaguedex.domain.Champion;
 import com.revature.leaguedex.repository.DexRepository;
+import com.revature.leaguedex.domain.Champion;
+import jakarta.servlet.http.HttpServlet;
 
 import java.util.List;
-import java.util.Locale;
 
-
-public class LeagueDexService {
+public class DexService extends HttpServlet {
     private DexRepository dexRepository;
 
-    public LeagueDexService(DexRepository dexRepository) {
+
+    public DexService(DexRepository dexRepository) {
+
         this.dexRepository = dexRepository;
     }
-
 
     public String searchForm() {
         String HTMLForm = "<Html>\n" +
@@ -33,11 +33,11 @@ public class LeagueDexService {
         return HTMLForm;
     }
 
-    public List<Champion> getChampoin() {
+    public List<Champion> getChampion() {
         return dexRepository.getPocketChampions();
     }
 
     public Champion getChampion(String userInput) {
-        return dexRepository.getChampion(userInput.trim().toLowerCase());
+        return dexRepository.getChampion(userInput.trim().toUpperCase());
     }
 }

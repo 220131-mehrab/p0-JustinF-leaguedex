@@ -1,12 +1,5 @@
 package com.revature.leaguedex;
 
-import com.revature.leaguedex.domain.Champion;
-import com.revature.leaguedex.repository.ChampAPIDexRepository;
-import com.revature.leaguedex.repository.DexRepository;
-import com.revature.leaguedex.repository.SQLDexRepository;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
-
 public class DexRepositoryTest {
     /*@Test
     public void getLeagueTest() {

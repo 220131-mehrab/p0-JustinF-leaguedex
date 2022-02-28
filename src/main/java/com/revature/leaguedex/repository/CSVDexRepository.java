@@ -16,32 +16,33 @@ public class CSVDexRepository implements DexRepository {
         this.file = getClass().getClassLoader().getResourceAsStream(filename);
         load();
     }
-    //load program
+
     private void load() {
         Scanner scanner = new Scanner(this.file);
         scanner.useDelimiter("\n");
         scanner.next();
         while (scanner.hasNext()) {
-            String[] champColums = scanner.next().split(",");
-            Champion temp = Champion.of().name(champColums[2])
-                    .id(Integer.parseInt(champColums[1]))
-                    .type1(champColums[3]);
-                    //.type2(champColums[4]);
+            String[] champColumns = scanner.next().split(",");
+            Champion temp = Champion.of().name(champColumns[1])
+                    .id(Integer.parseInt(champColumns[0]))
+                    .type(champColumns[2])
+                    .health(Integer.parseInt(champColumns[3]));
 
             this.pocketChampions.add(temp);
         }
     }
 
-    public List<Champion> getPocketChampions() {
-        return pocketChampions;}
-
-    public Champion getChampion(String name){
-        Champion result= null;
+    public Champion getChampion(String name) {
+        Champion result = null;
         for(Champion champion : this.pocketChampions) {
             if (champion.getName().equals(name)) {
                 result = champion;
             }
         }
         return result;
+    }
+
+    public List<Champion> getPocketChampions() {
+        return pocketChampions;
     }
 }
