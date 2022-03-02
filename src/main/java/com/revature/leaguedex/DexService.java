@@ -38,6 +38,6 @@ public class DexService extends HttpServlet {
     }
 
     public Champion getChampion(String userInput) {
-        return dexRepository.getChampion(userInput.trim().toLowerCase());
+        return dexRepository.getChampion(userInput.trim().toUpperCase());
     }
 }
