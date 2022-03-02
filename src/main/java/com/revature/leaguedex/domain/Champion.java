@@ -67,12 +67,11 @@ public class Champion implements Comparable<Champion> {
 
     @Override
     public String toString() {
-        return "Champion {" +
-                "dexID=" + dexId +
-                ", name='" + name +'\'' +
-                ", Class=" + type +
-                ", Health=" + health +
-                '}';
+//        return this.name;
+        return "#" + dexId +
+                " " + name +
+                " Class= " + type +
+                " Health= " + health;
     }
 
     @Override

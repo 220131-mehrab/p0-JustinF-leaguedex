@@ -25,9 +25,11 @@ public class DexServlet extends HttpServlet {
 
         List<Champion> results = new ArrayList<>();
         if(userInput != null) {
-            resp.getWriter().println(service.getChampion(userInput));
+            results.add(service.getChampion(userInput));
         } else {
             results.addAll(service.getChampion());
         }
+        for (Champion c : results)
+            resp.getWriter().println(c + "<br/>");
     }
 }

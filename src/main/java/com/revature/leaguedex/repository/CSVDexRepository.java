@@ -23,10 +23,9 @@ public class CSVDexRepository implements DexRepository {
         scanner.next();
         while (scanner.hasNext()) {
             String[] champColumns = scanner.next().split(",");
-            Champion temp = Champion.of().name(champColumns[1])
-                    .id(Integer.parseInt(champColumns[0]))
-                    .type(champColumns[2])
-                    .health(Integer.parseInt(champColumns[3]));
+            Champion temp = Champion.of().name(champColumns[1]);
+
+
 
             this.pocketChampions.add(temp);
         }

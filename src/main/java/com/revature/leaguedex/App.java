@@ -8,14 +8,14 @@ import org.apache.catalina.LifecycleException;
 import org.apache.catalina.startup.Tomcat;
 
 public class App {
-
     public static void main(String[] args) {
-
+        System.out.println("main method");
         connectToServer();
     }
 
     public static void connectToServer() {
         String webApp = "";
+        System.out.println("connect to server method");
 
         //object graph with injection for server
         DexRepository dexRepository;
